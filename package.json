@@ -1,0 +1,41 @@
+{
+  "license": "MIT",
+  "private": false,
+  "version": "1.0.13",
+  "main": "index.json",
+  "name": "@oly_op/prettier-config",
+  "description": "@oly_op/prettier-config",
+  "bugs": "https://github.com/olyop/prettier-config/issues",
+  "homepage": "https://github.com/olyop/prettier-config/blob/master/README.md",
+  "author": {
+    "name": "Oliver Plummer",
+    "email": "oliver.plummer@outlook.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/olyop/prettier-config.git"
+  },
+  "files": [
+    "index.json"
+  ],
+  "volta": {
+    "node": "18.9.0",
+    "npm": "8.19.2"
+  },
+  "scripts": {
+    "sync": "git checkout . && git remote update && git pull",
+    "push": "git add -A && git commit -m \"Update\" && git push"
+  },
+  "peerDependencies": {
+    "prettier": "^2.7.1"
+  },
+  "devDependencies": {
+    "@oly_op/cspell-dict": "1.0.111",
+    "prettier": "^2.7.1"
+  },
+  "dependencies": {
+    "@prettier/plugin-xml": "2.2.0",
+    "prettier-plugin-java": "1.6.2",
+    "prettier-plugin-properties": "0.2.0"
+  }
+}
