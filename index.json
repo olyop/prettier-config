@@ -19,5 +19,7 @@
   "xmlWhitespaceSensitivity": "ignore",
   "keySeparator": "=",
   "importOrderSeparation": true,
-  "importOrderSortSpecifiers": true
+  "importOrderSortSpecifiers": true,
+  "importOrderGroupNamespaceSpecifiers": true,
+  "importOrder": ["^node:(.*)$", "<THIRD_PARTY_MODULES>", "^[./]"]
 }
