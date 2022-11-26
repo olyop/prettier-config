@@ -17,5 +17,7 @@
   "useTabs": true,
   "xmlSelfClosingSpace": false,
   "xmlWhitespaceSensitivity": "ignore",
-  "keySeparator": "="
+  "keySeparator": "=",
+  "importOrderSeparation": true,
+  "importOrderSortSpecifiers": true
 }
