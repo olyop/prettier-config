@@ -1,3 +1,6 @@
 {
-	"import": ["@oly_op/cspell-dict/cspell-ext.json"]
+	"import": ["@oly_op/cspell-dict/cspell-ext.json"],
+	"words": [
+		"trivago"
+	]
 }
