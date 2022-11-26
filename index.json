@@ -19,5 +19,6 @@
   "xmlWhitespaceSensitivity": "ignore",
   "keySeparator": "=",
   "importOrderSeparation": true,
-  "importOrderSortSpecifiers": true
+  "importOrderSortSpecifiers": true,
+  "importOrder": ["^node:(.*)$", "<THIRD_PARTY_MODULES>", "^[./]", "^[./(.*).(.css|.json|.scss)$"]
 }
