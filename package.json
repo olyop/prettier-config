@@ -1,7 +1,7 @@
 {
   "license": "MIT",
   "private": false,
-  "version": "1.0.21",
+  "version": "1.1.0",
   "main": "index.json",
   "name": "@oly_op/prettier-config",
   "description": "@oly_op/prettier-config",
@@ -32,12 +32,12 @@
   },
   "devDependencies": {
     "@oly_op/cspell-dict": "1.0.115",
-    "prettier": "^2.8.0"
+    "prettier": "^2.8.8"
   },
   "dependencies": {
     "@prettier/plugin-xml": "2.2.0",
-    "@trivago/prettier-plugin-sort-imports": "4.0.0",
-    "prettier-plugin-java": "1.6.2",
+    "@trivago/prettier-plugin-sort-imports": "4.1.1",
+    "prettier-plugin-java": "2.1.0",
     "prettier-plugin-properties": "0.2.0"
   }
 }
