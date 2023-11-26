@@ -18,9 +18,11 @@
   "xmlSelfClosingSpace": false,
   "xmlWhitespaceSensitivity": "ignore",
   "keySeparator": "=",
+  "language": "postgresql",
+  "database": "postgresql",
   "importOrderSeparation": true,
   "importOrderSortSpecifiers": true,
   "importOrderGroupNamespaceSpecifiers": true,
   "importOrder": ["^node:(.*)$", "<THIRD_PARTY_MODULES>", "^[./]"],
-  "plugins": ["prettier-plugin-java"]
+  "plugins": ["prettier-plugin-java", "prettier-plugin-xml", "prettier-plugin-sql", "prettier-plugin-properties"]
 }
