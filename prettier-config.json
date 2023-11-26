@@ -24,5 +24,11 @@
   "importOrderSortSpecifiers": true,
   "importOrderGroupNamespaceSpecifiers": true,
   "importOrder": ["^node:(.*)$", "<THIRD_PARTY_MODULES>", "^[./]"],
-  "plugins": ["prettier-plugin-java", "prettier-plugin-xml", "prettier-plugin-sql", "prettier-plugin-properties"]
+  "plugins": [
+    "@prettier/plugin-xml",
+    "@trivago/prettier-plugin-sort-imports",
+    "prettier-plugin-java",
+    "prettier-plugin-properties",
+    "prettier-plugin-sql"
+  ]
 }
