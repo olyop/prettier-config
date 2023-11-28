@@ -22,6 +22,7 @@
   "database": "postgresql",
   "keywordCase": "upper",
   "identifierCase": "lower",
+  "expressionWidth": 25,
   "importOrderSeparation": true,
   "importOrderSortSpecifiers": true,
   "importOrderGroupNamespaceSpecifiers": true,
