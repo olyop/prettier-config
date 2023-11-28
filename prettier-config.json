@@ -20,6 +20,8 @@
   "keySeparator": "=",
   "language": "postgresql",
   "database": "postgresql",
+  "keywordCase": "upper",
+  "identifierCase": "lower",
   "importOrderSeparation": true,
   "importOrderSortSpecifiers": true,
   "importOrderGroupNamespaceSpecifiers": true,
