@@ -22,7 +22,6 @@
   "database": "postgresql",
   "keywordCase": "upper",
   "identifierCase": "lower",
-  "expressionWidth": 10,
   "indentStyle": "tabularRight",
   "importOrderSeparation": true,
   "importOrderSortSpecifiers": true,
