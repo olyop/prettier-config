@@ -22,7 +22,7 @@
   "database": "postgresql",
   "keywordCase": "upper",
   "identifierCase": "lower",
-  "indentStyle": "tabularRight",
+  "indentStyle": "standard",
   "importOrderSeparation": true,
   "importOrderSortSpecifiers": true,
   "importOrderGroupNamespaceSpecifiers": true,
