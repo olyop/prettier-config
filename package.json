@@ -1,7 +1,7 @@
 {
   "license": "MIT",
   "private": false,
-  "version": "1.7.9",
+  "version": "1.7.10",
   "main": "prettier-config.json",
   "name": "@oly_op/prettier-config",
   "description": "@oly_op/prettier-config",
@@ -28,9 +28,9 @@
     "push": "git add -A && git commit -m \"Update\" && git push"
   },
   "devDependencies": {
-    "@oly_op/cspell-dict": "1.1.4",
-    "prettier": "3.1.0",
-    "@prettier/plugin-xml": "3.2.2",
+    "@oly_op/cspell-dict": "1.1.5",
+    "prettier": "3.2.5",
+    "@prettier/plugin-xml": "3.3.1",
     "@trivago/prettier-plugin-sort-imports": "4.3.0",
     "prettier-plugin-java": "2.5.0",
     "prettier-plugin-properties": "0.3.0",
