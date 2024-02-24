@@ -1,48 +1,41 @@
 {
-  "license": "MIT",
-  "private": false,
-  "version": "1.7.12",
-  "main": "prettier-config.json",
-  "name": "@oly_op/prettier-config",
-  "description": "@oly_op/prettier-config",
-  "bugs": "https://github.com/olyop/prettier-config/issues",
-  "homepage": "https://github.com/olyop/prettier-config/blob/master/README.md",
-  "author": {
-    "name": "Oliver Plummer",
-    "email": "oliver.plummer@outlook.com"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/olyop/prettier-config.git"
-  },
-  "files": [
-    "index.json"
-  ],
-  "volta": {
-    "node": "21.2.0",
-    "npm": "10.2.4"
-  },
-  "scripts": {
-    "postpublish": "npm run push",
-    "sync": "git checkout . && git remote update && git pull",
-    "push": "git add -A && git commit -m \"Update\" && git push"
-  },
-  "devDependencies": {
-    "@oly_op/cspell-dict": "1.1.5",
-    "@prettier/plugin-xml": "3.3.1",
-    "@trivago/prettier-plugin-sort-imports": "4.3.0",
-    "npm-check-updates": "16.14.15",
-    "prettier": "3.2.5",
-    "prettier-plugin-java": "2.6.0",
-    "prettier-plugin-properties": "0.3.0",
-    "prettier-plugin-sql": "0.18.0"
-  },
-  "peerDependencies": {
-    "@prettier/plugin-xml": "3.2.2",
-    "@trivago/prettier-plugin-sort-imports": "4.3.0",
-    "prettier": "3.2.5",
-    "prettier-plugin-java": "2.5.0",
-    "prettier-plugin-properties": "0.3.0",
-    "prettier-plugin-sql": "0.17.0"
-  }
+	"name": "@oly_op/prettier-config",
+	"version": "1.8.0",
+	"private": false,
+	"description": "@oly_op/prettier-config",
+	"homepage": "https://github.com/olyop/prettier-config/blob/master/README.md",
+	"bugs": "https://github.com/olyop/prettier-config/issues",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/olyop/prettier-config.git"
+	},
+	"license": "MIT",
+	"author": {
+		"name": "Oliver Plummer",
+		"email": "oliver.plummer@outlook.com"
+	},
+	"main": ".prettierrc.json5",
+	"files": [
+		".prettierrc.json5"
+	],
+	"scripts": {
+		"postpublish": "npm run push"
+	},
+	"devDependencies": {
+		"@oly_op/cspell-dict": "1.1.5",
+		"json5": "2.2.3",
+		"npm-check-updates": "16.14.15"
+	},
+	"peerDependencies": {
+		"@prettier/plugin-xml": "3.2.2",
+		"@trivago/prettier-plugin-sort-imports": "4.3.0",
+		"prettier": "3.2.5",
+		"prettier-plugin-java": "2.5.0",
+		"prettier-plugin-properties": "0.3.0",
+		"prettier-plugin-tailwindcss": "0.5.11"
+	},
+	"volta": {
+		"node": "21.6.2",
+		"npm": "10.4.0"
+	}
 }

@@ -1,0 +1,40 @@
+{
+	// Prettier configuration
+	"experimentalTernaries": true,
+	"printWidth": 120,
+	"tabWidth": 2,
+	"useTabs": true,
+	"semi": true,
+	"singleQuote": false,
+	"quoteProps": "preserve",
+	"jsxSingleQuote": false,
+	"trailingComma": "all",
+	"bracketSpacing": true,
+	"bracketSameLine": false,
+	"arrowParens": "avoid",
+	"proseWrap": "preserve",
+	"htmlWhitespaceSensitivity": "ignore",
+	"endOfLine": "lf",
+	"singleAttributePerLine": false,
+	"plugins": [
+		"@prettier/plugin-xml",
+		"@trivago/prettier-plugin-sort-imports",
+		"prettier-plugin-java",
+		"prettier-plugin-properties",
+		"prettier-plugin-tailwindcss",
+	],
+
+	// @prettier/plugin-xml
+	"singleAttributePerLine": false,
+	"xmlSelfClosingSpace": false,
+	"xmlWhitespaceSensitivity": "ignore",
+
+	// @trivago/prettier-plugin-sort-imports
+	"importOrderSeparation": true,
+	"importOrderSortSpecifiers": true,
+	"importOrderGroupNamespaceSpecifiers": true,
+	"importOrder": ["^node:(.*)$", "<THIRD_PARTY_MODULES>", "^[./]"],
+
+	// prettier-plugin-properties
+	"keySeparator": "=",
+}
