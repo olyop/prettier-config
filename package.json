@@ -1,6 +1,6 @@
 {
 	"name": "@oly_op/prettier-config",
-	"version": "1.8.1",
+	"version": "1.8.2",
 	"private": false,
 	"description": "@oly_op/prettier-config",
 	"homepage": "https://github.com/olyop/prettier-config/blob/master/README.md",
@@ -14,10 +14,16 @@
 		"name": "Oliver Plummer",
 		"email": "oliver.plummer@outlook.com"
 	},
-	"main": ".prettierrc.json5",
+	"main": ".prettierrc.json",
 	"files": [
-		".prettierrc.json5"
+		".prettierrc.json"
 	],
+	"scripts": {
+		"clean": "rm -rf .prettierrc.json",
+		"compile": "json5 --space t --out-file .prettierrc.json .prettierrc.json5",
+		"build": "npm run clean && npm run compile",
+		"prepublishOnly": "clear && npm run build"
+	},
 	"devDependencies": {
 		"@oly_op/cspell-dict": "1.1.5",
 		"json5": "2.2.3",
