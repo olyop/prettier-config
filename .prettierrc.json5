@@ -32,7 +32,12 @@
 	"importOrderSeparation": true,
 	"importOrderSortSpecifiers": true,
 	"importOrderGroupNamespaceSpecifiers": true,
-	"importOrder": ["^node:(.*)$", "<THIRD_PARTY_MODULES>", "^[./]"],
+	"importOrder": [
+		"^node:(.*)$", // Node.js builtins
+		"<THIRD_PARTY_MODULES>", // Third-party modules
+		"^@/(.*)$", // Internal modules
+		"^[./]", // relative imports
+	],
 
 	// prettier-plugin-properties
 	"keySeparator": "=",
