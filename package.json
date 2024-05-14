@@ -1,6 +1,6 @@
 {
 	"name": "@oly_op/prettier-config",
-	"version": "1.8.3",
+	"version": "1.8.5",
 	"private": false,
 	"description": "@oly_op/prettier-config",
 	"homepage": "https://github.com/olyop/prettier-config/blob/master/README.md",
@@ -22,20 +22,29 @@
 		"clean": "rm -rf .prettierrc.json",
 		"compile": "json5 --space t --out-file .prettierrc.json .prettierrc.json5",
 		"build": "npm run clean && npm run compile",
-		"prepublishOnly": "clear && npm run build"
+		"prepublishOnly": "clear && npm run build",
+		"postpublish": "git add . && git commit -m 'Publish' && git push"
 	},
 	"devDependencies": {
-		"@oly_op/cspell-dict": "1.1.5",
+		"@oly_op/cspell-dict": "1.1.10",
+		"@prettier/plugin-xml": "3.4.1",
+		"@trivago/prettier-plugin-sort-imports": "4.3.0",
 		"json5": "2.2.3",
-		"npm-check-updates": "16.14.15"
+		"npm-check-updates": "16.14.20",
+		"prettier": "3.2.5",
+		"prettier-plugin-java": "2.6.0",
+		"prettier-plugin-properties": "0.3.0",
+		"prettier-plugin-sql": "0.18.0",
+		"prettier-plugin-tailwindcss": "0.5.14"
 	},
 	"peerDependencies": {
-		"@prettier/plugin-xml": "3.2.2",
+		"@prettier/plugin-xml": "3.4.1",
 		"@trivago/prettier-plugin-sort-imports": "4.3.0",
 		"prettier": "3.2.5",
-		"prettier-plugin-java": "2.5.0",
+		"prettier-plugin-java": "2.6.0",
 		"prettier-plugin-properties": "0.3.0",
-		"prettier-plugin-tailwindcss": "0.5.11"
+		"prettier-plugin-sql": "0.18.0",
+		"prettier-plugin-tailwindcss": "0.5.14"
 	},
 	"volta": {
 		"node": "21.6.2",

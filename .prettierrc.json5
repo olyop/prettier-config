@@ -21,6 +21,7 @@
 		"prettier-plugin-java",
 		"prettier-plugin-properties",
 		"prettier-plugin-tailwindcss",
+		"prettier-plugin-sql",
 	],
 
 	// @prettier/plugin-xml
