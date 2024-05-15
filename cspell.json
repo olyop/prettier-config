@@ -1,10 +1,4 @@
 {
-  "import": [
-    "@oly_op/cspell-dict/cspell-ext.json"
-  ],
-  "words": [
-    "plsql",
-    "tailwindcss",
-    "trivago"
-  ]
+	"import": ["@oly_op/cspell-dict/cspell-ext.json"],
+	"words": ["plsql", "postgresql", "tailwindcss", "trivago"]
 }
