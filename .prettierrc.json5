@@ -52,5 +52,5 @@
 	"identifierCase": "lower",
 	"indentStyle": "standard",
 	"logicalOperatorNewline": "after",
-	"expressionWidth": "85",
+	"expressionWidth": 85,
 }
