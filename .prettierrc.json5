@@ -45,7 +45,6 @@
 
 	// prettier-plugin-sql
 	"language": "sql",
-	"dialect": "postgresql",
 	"keywordCase": "upper",
 	"dataTypeCase": "upper",
 	"functionCase": "lower",
