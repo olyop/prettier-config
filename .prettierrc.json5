@@ -47,7 +47,7 @@
 	"language": "postgresql",
 	"keywordCase": "upper",
 	"dataTypeCase": "upper",
-	"functionCase": "lower",
+	"functionCase": "upper",
 	"identifierCase": "lower",
 	"indentStyle": "standard",
 	"logicalOperatorNewline": "after",
