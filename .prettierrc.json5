@@ -44,7 +44,7 @@
 	"keySeparator": "=",
 
 	// prettier-plugin-sql
-	"language": "sql",
+	"language": "postgresql",
 	"keywordCase": "upper",
 	"dataTypeCase": "upper",
 	"functionCase": "lower",
