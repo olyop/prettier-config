@@ -52,4 +52,8 @@
 	"indentStyle": "standard",
 	"logicalOperatorNewline": "after",
 	"expressionWidth": 85,
+
+	// prettier-plugin-tailwindcss
+	"tailwindAttributes": ["iconClassName", "contentClassName", "textClassName", "modalClassName"],
+	"tailwindFunctions": ["clsx"],
 }
