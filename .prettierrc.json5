@@ -1,6 +1,6 @@
 {
 	// Prettier configuration
-	"printWidth": 120,
+	"printWidth": 90,
 	"tabWidth": 2,
 	"useTabs": true,
 	"semi": true,
@@ -54,6 +54,11 @@
 	"expressionWidth": 85,
 
 	// prettier-plugin-tailwindcss
-	"tailwindAttributes": ["iconClassName", "contentClassName", "textClassName", "modalClassName"],
+	"tailwindAttributes": [
+		"iconClassName",
+		"contentClassName",
+		"textClassName",
+		"modalClassName",
+	],
 	"tailwindFunctions": ["clsx"],
 }
