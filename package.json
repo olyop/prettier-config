@@ -22,8 +22,7 @@
 		"clean": "rm -rf .prettierrc.json",
 		"compile": "json5 --space t --out-file .prettierrc.json .prettierrc.json5",
 		"build": "npm run clean && npm run compile",
-		"prepublishOnly": "clear && npm run build",
-		"postpublish": "git add . && git commit -m 'Publish' && git push"
+		"prepublishOnly": "clear && npm run build"
 	},
 	"devDependencies": {
 		"@oly_op/cspell-dict": "1.1.14",
