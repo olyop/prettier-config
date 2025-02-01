@@ -51,6 +51,7 @@
 	"identifierCase": "lower",
 	"indentStyle": "standard",
 	"logicalOperatorNewline": "after",
+	"paramTypes": "{\"named\":[\":\"]}",
 	"expressionWidth": 85,
 
 	// prettier-plugin-tailwindcss

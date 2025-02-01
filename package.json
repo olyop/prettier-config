@@ -1,6 +1,6 @@
 {
 	"name": "@oly_op/prettier-config",
-	"version": "1.9.7",
+	"version": "1.9.8",
 	"private": false,
 	"description": "@oly_op/prettier-config",
 	"homepage": "https://github.com/olyop/prettier-config/blob/master/README.md",
@@ -22,7 +22,8 @@
 		"clean": "rm -rf .prettierrc.json",
 		"compile": "json5 --space t --out-file .prettierrc.json .prettierrc.json5",
 		"build": "npm run clean && npm run compile",
-		"prepublishOnly": "clear && npm run build"
+		"prepublishOnly": "clear && npm run build",
+		"postpublish": "rm .prettierrc.json"
 	},
 	"devDependencies": {
 		"@oly_op/cspell-dict": "1.1.14",
